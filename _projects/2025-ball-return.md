@@ -12,4 +12,10 @@ I got more practice with Fusion 360 and designing laser cut parts from this proj
 
 This is the acrylic frame and laser cut wood ramp I designed:
 
-![acrylic frame and wood ramp]({{ "/assets/images/frame.jpg" | relative_url }}){: .inline-image-m style="width: 300px"}
+<div class="media-columns">
+
+  <img src="{{ '/assets/images/frame.jpg' | relative_url }}" alt="Example 1">
+
+  <img src="{{ '/assets/images/ramp.jpg' | relative_url }}" alt="Example 2">
+
+</div>
