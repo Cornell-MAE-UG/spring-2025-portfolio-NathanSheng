@@ -23,8 +23,6 @@ Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <
 
   <img src="{{ '/assets/images/MavrikOnHatchet.jpg' | relative_url }}" alt="Example 2">
 
-  <img src="{{ '/assets/images/Hatchet-title.png' | relative_url }}" alt="Example 2">
-
   <video autoplay loop muted playsinline>
     <source src="{{ '/assets/videos/havoc-air-card-video.mp4' | relative_url }}" type="video/mp4">
   </video>
