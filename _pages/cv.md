@@ -1,74 +1,47 @@
 ---
 layout: default
-title: <Nathan Sheng> - Curriculum Vitae
+title: Nathan Sheng - Resume
 permalink: /cv/
 ---
+
 ## Curriculum Vitae
 
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
+**Email:** [nxs2@cornell.edu](mailto:nxs2@cornell.edu) &nbsp;&nbsp; **Phone:** 607 333 8131
 
-**Email:** [nxs2@cornell.edu](mailto:nxs2@cornell.edu) | | | **Phone:** 607 333 8131
+<div class="resume-page">
+  <object
+    class="resume-pdf"
+    data="{{ '/assets/CV.pdf' | relative_url }}#view=FitH"
+    type="application/pdf"
+    aria-label="Nathan Sheng's resume"
+  >
+    <p>
+      Your browser cannot display the embedded PDF.
+      <a href="{{ '/assets/CV.pdf' | relative_url }}">Open or download my resume</a>.
+    </p>
+  </object>
 
----
+</div>
 
-#### Objective
-Aspiring engineering student with a strong foundation in mechanical design. Passionate about robotics and eager to apply my knowledge in real-world applications.
+<style>
+  .resume-page {
+    margin: 1.5rem 0;
+  }
 
----
+  .resume-pdf {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 12rem);
+    min-height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
 
-#### Education
-- **Cornell University**  
-  *Bachelor of Science in Mechanical Engineering*  
-  GPA: 3.5/4.0 | Graduation: May, 2027
-
-- **Corning-Painted Post High School**  
-  *High School Diploma*  
-  Graduation: May, 2023
-
----
-
-#### Skills
-- **Software:** Onshape, Autodesk Fusion 360, SolidWorks 
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
-
----
-
-#### Projects
-- **Raspberry Pi Bird Feeder**:  
-  *Bird feeder that takes pictures of birds when they perch to feed.*  
-  - Sensors: load cell, pi cam
-
-- **Mini Basketball Return**:  
-  *Attachment to mini basketball hoop that launches the ball back to the user.*  
-  - Gained more Fusion 360 and laser cutting experience
-
----
-
-#### Work Experience
-- **Corning Inc. - Intern**  
-  June, 2022 - August, 2022 
-  - Designed demo device for flexible glass
-
-- **MAVRIK Inc. - Intern**  
-  June, 2025 - August, 2025 
-
----
-
-#### Achievements & Certifications
-- Qualified to FTC World Championship, 2021 and 2022 
-- Dean’s List Semifinalist, FTC Robotics, 2021  
-
----
-
-#### Extracurricular Activities
-- Member of CUAD mechanical subteam
-- Head builder and driver for FTC team 5484 from 2021-2023
-
----
-
-#### References
-Available upon request.
-
----
+  @media (max-width: 767px) {
+    .resume-pdf {
+      min-height: 600px;
+    }
+  }
+</style>
