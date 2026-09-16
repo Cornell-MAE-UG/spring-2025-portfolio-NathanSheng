@@ -11,7 +11,7 @@ title: <Nathan Sheng>
  
 My name is {{ site.name }}, and I am a student at Cornell University majoring in Mechanical Engineering. I like robotics and mechanical design. 
 
-For half a year, I worked with a team of seven at a startup called Mavrik to develop a heavy lift drone. In only a couple months, we went from a general idea to earning a SBIR contract to develop this heavy lift drone. A couple months later we got acquired for (a lot of money) by HavocAI. I then worked at HavocAI for a couple of months and returned to Cornell to finish my Bachelors.
+For half a year, I worked with a team of seven at a startup called Mavrik to develop a heavy lift drone. In less than a year, we went from a general idea to earning a phase 2 SBIR contract to develop this heavy lift drone. A couple months later we got acquired by HavocAI. I then worked at HavocAI for a couple of months and returned to Cornell to finish my Bachelors.
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
 

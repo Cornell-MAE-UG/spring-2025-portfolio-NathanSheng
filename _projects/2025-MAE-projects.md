@@ -1,6 +1,7 @@
 ---
 layout: project
 title: MAE Course Projects
+order: 9
 description: Mechanical Design Projects
 technologies: [Autodesk Fusion, Onshape]
 image: /assets/images/ramp.jpg

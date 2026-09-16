@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Auto-pickup Drone and Payload Target
+order: 3
 description: a 10 in quad that was tethered to hatchet and whose purpose was to mate the long line with the payload target
 technologies: [Onshape, 3D Printing, FEA, CNC Milling]
 image: /assets/images/AutoPickup.jpg

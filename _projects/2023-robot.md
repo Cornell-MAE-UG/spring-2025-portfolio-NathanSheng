@@ -1,6 +1,7 @@
 ---
 layout: project
 title: FTC Robots
+order: 5
 description: four years of high school, four robots
 technologies: [Onshape, 3D Printing]
 image: /assets/images/2023-robot.png

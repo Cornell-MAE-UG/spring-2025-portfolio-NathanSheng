@@ -1,12 +1,13 @@
 ---
 layout: project
-title: Various Mounts...
+title: Various Mounts
+order: 10
 description: smaller, less interesting mounts
-technologies: [Onshape, 3D Printing, FEA, CNC Milling]
+technologies: [Onshape, 3D Printing, FEA, Sheet Metal, CNC Milling]
 image: /assets/images/BraceMountBig.jpg
 ---
 
-This is a compilation of mounts and other miscellaneous parts I've made. A lot of my job at Mavrik/Havoc was making simple mounts where the object being mounted and the place it's being mounted to are well defined, which is not that interesting most of the time, but it's still a job that recquires nuance and skill sometimes.
+This is a compilation of mounts and other miscellaneous parts I've made. A lot of my job at Mavrik/Havoc was making simple mounts where the object being mounted and the place it's being mounted to are well defined, which is not that interesting a lot of the time, but I think it still recquires a lot of nuance and skill. When its done well it really contributes to the finish of the product and the mounts should be unnoticable(because they don't break or get in the way during use/maintenance).
 
 <div class="media-columns">
   <figure>

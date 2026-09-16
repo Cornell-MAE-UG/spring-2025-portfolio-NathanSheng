@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Test Stands
+order: 8
 description: Hatchet arm test stand and Lawn Dart test stand
 technologies: [CNC Routing, Onshape, 3D Printing]
 image: /assets/images/TestStand.jpg

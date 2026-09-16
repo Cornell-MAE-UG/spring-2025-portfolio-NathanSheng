@@ -1,6 +1,7 @@
 ---
 layout: project
 title: FPV Module
+order: 7
 description: Detachable module that streamed live FPV footage
 technologies: [Onshape, 3D Printing, CNC Routing]
 image: /assets/images/FPVModuleIso.jpg

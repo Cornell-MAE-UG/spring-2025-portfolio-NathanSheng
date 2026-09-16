@@ -104,7 +104,7 @@ footer {
 .project-image {
   float: left;
   margin: 20px 25px 25px 0;
-  max-width: 400px;
+  max-width: 500px;
   vertical-align: top;
 }
 
@@ -126,6 +126,39 @@ footer {
   }
 }
 
+.inline-figure {
+  width: var(--inline-width, 350px);
+  max-width: 45%;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.inline-figure-left {
+  float: left;
+  margin-right: 25px;
+  margin-left: 0;
+}
+
+.inline-figure-right {
+  float: right;
+  margin-right: 0;
+  margin-left: 25px;
+}
+
+.inline-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.inline-figure figcaption {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+}
+
 .profile-image, .project-image {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -140,7 +173,7 @@ footer {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
@@ -263,6 +296,7 @@ footer {
   max-width: 100%;
   margin: 24px auto;
   text-align: center;
+  clear: both;
 }
 
 .adjustable-image img {
@@ -312,6 +346,15 @@ footer {
 }
 
 @media (max-width: 700px) {
+  .inline-figure,
+  .inline-figure-left,
+  .inline-figure-right {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 16px 0;
+  }
+
   .media-wide-pair {
     grid-template-columns: 1fr;
     width: 100%;
@@ -326,4 +369,11 @@ footer {
   .media-grid .full-width {
     grid-column: auto;
   }
+}
+
+.media-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
 }
