@@ -6,20 +6,20 @@ permalink: /cv/
 
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/CV.pdf" | relative_url }}?v=20260918) in PDF format.
 
 **Email:** [nxs2@cornell.edu](mailto:nxs2@cornell.edu) &nbsp;&nbsp; **Phone:** 607 333 8131
 
 <div class="resume-page">
   <object
     class="resume-pdf"
-    data="{{ '/assets/CV.pdf' | relative_url }}#view=FitH"
+    data="{{ '/assets/CV.pdf' | relative_url }}?v=20260918#view=FitH"
     type="application/pdf"
     aria-label="Nathan Sheng's resume"
   >
     <p>
       Your browser cannot display the embedded PDF.
-      <a href="{{ '/assets/CV.pdf' | relative_url }}">Open or download my resume</a>.
+      <a href="{{ '/assets/CV.pdf' | relative_url }}?v=20260918">Open or download my resume</a>.
     </p>
   </object>
 
